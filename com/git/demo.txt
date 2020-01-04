@@ -24,6 +24,14 @@ public class DetailsController {
 		details.setAddress("Bangalore");
 		
 		detailsList.add(details);
+		
+		details = new Details();
+			details.setName("Cathreen");
+			details.setAge("25");
+			details.setAddress("Kerala");
+			
+			detailsList.add(details);
+			
 		System.out.println("Details = "+detailsList);
 		
 	}
