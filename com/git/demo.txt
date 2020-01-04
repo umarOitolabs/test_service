@@ -1,0 +1,31 @@
+package com.git.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.git.bean.Details;
+
+public class DetailsController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Details> detailsList = new ArrayList<Details>();
+		
+		Details details = new Details();
+		details.setName("Arun");
+		details.setAge("10");
+		details.setAddress("Bangalore");
+		
+		detailsList.add(details);
+		
+	    details = new Details();
+		details.setName("Balu");
+		details.setAge("20");
+		details.setAddress("Bangalore");
+		
+		detailsList.add(details);
+		System.out.println("Details = "+detailsList);
+		
+	}
+
+}
